@@ -4,9 +4,9 @@
 
 This setup will allow the user to test functions inside a program with a ```main``` function. The sample program includes a ```main``` function that calls a factorial function (```fact```). Also included, a sample test suite that test the ```fact   ``` function.
 
-This is how it works. The main function is renamed and the whole file is included into the testing suite code. All testing is done inside the directory _TEST. All temporay files will be deleted when done. For an example on testing classes see [Testing Classess with Catch2](https://github.com/nasseef/catch-classes). 
+This is how it works. The main function is renamed and the whole file is included into the testing suite code. All testing is done inside the directory _TEST. All temporay files will be deleted when done. For an example on testing classes see [Testing Classess with Catch2](https://github.com/nasseef/catch-classes).
 
-This code is automatically tested using Travis-CI. 
+This code is automatically tested using Travis-CI. It will run the submitter's program then run the Catch tests. Modify the .travis.yml to change how the program should be run or tested.
 
 ## Setup:
 * Copy the directory ```_TEST``` into your project directory
