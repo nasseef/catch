@@ -10,7 +10,7 @@ This is how it works. The main function is renamed and the whole file is include
 * Copy the directory ```_TEST``` into your project directory
 * Edit ```TEST_cases.cc``` to include all your test cases. Do not modify the #include's (top part).
 * Add the supplied ```Makefile``` into the main project directory
-  * Edit ```Makefile``` to use your own file names (a.out rule only)
+  * Modify the ```Makefile``` to use your own file names (a.out rule only)
 * Compile and run your program
   ```sh
     make
