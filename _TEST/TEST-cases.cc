@@ -1,13 +1,15 @@
 /*
  * Unit testing for the Factorial
  */
-//#define CATCH_CONFIG_RUNNER
+//***** DO NOT MODIFY THE FOLLOWING 3 LINES *****
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "NO_MAIN.cc"
+//***********************************************
 
+
+//ADD YOUR TEST CASES HERE
 TEST_CASE("Testing fact function") {
-    
     REQUIRE(fact(0) == 1);
     REQUIRE(fact(1) == 1);
     REQUIRE(fact(2) == 2);
