@@ -3,5 +3,6 @@ compiler: gcc
 notifications:
   email: false
   
-script:
+script:  # run the main program first then run tests
+- make && ./a.out
 - make run_tests
