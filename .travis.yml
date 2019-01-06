@@ -5,8 +5,5 @@ notifications:
   
 script:  # run the main program first then run tests
 - make && ./a.out
-- cd _TEST
-- sh configure.sh
-- g++ -Wall -std=c++11 TEST-cases.cc -o run_tests
-- ./run_tests
-- cd ..
+- sh _TEST/configure.sh
+- cd _TEST && g++ -Wall -std=c++11 TEST-cases.cc -o run_tests && ./run_tests
