@@ -10,6 +10,7 @@
 
 //ADD YOUR TEST CASES HERE
 TEST_CASE("Testing fact function") {
+    
     REQUIRE(fact(0) == 1);
     REQUIRE(fact(1) == 1);
     REQUIRE(fact(2) == 2);
