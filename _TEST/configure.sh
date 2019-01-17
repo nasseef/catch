@@ -11,9 +11,7 @@
 file_name=`egrep -il ' main[ ]*\(' *.cc *.cpp *.cxx 2>/dev/null`
 sed 's/ main[ ]*(/ IGNORE(/' $file_name >_TEST/NO_MAIN.cc
 # show the first 10 lines in the program (author, date, etc.)
-echo '\033[1;33m'
 echo '\033[1;33m' '######################################################################'
 head _TEST/NO_MAIN.cc
-echo '######################################################################'
-echo '\033[0m'
+echo '\033[1;33m' '######################################################################'
 exit 0
