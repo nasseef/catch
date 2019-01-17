@@ -13,7 +13,7 @@ using namespace std;
 
 int fact(int n);
 
-int main(int argc, char const *argv[]) {
+int   main (int argc, char const *argv[]) {
     int f = fact(5);
     cout << "Factorial of 5 " << " = " << f << endl;
 
