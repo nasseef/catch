@@ -1,7 +1,7 @@
 # C++ Unit Testing using Catch2
 
 ### Contact: Nasseef Abukamail (abukamai@ohio.edu)
-
+###    Date: November 5, 2019
 ---
 
 This setup will allow the user to test functions inside a program with a `main` function. The sample program includes a `main` function that calls a factorial function (`fact`). Also included, a sample test suite that test the `fact` function.
